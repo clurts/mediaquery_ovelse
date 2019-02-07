@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 3vw;
+	color: MistyRose;
+	text-align: center;
+}
+
+/*Mobil er udgangspunktet*/
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	background: MistyRose;
+}
+
+.box-1 {
+	height: 20vh;
+	background: LightSlateGrey;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+.box-2 {
+	height: 50vh;
+	background: MidnightBlue;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+.box-3 {
+	height: 20vh;
+	background: lightcoral;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+.box-4 {
+	display: none; 
+}
+
+@media screen and (min-width: 500px) {
+/*tablet*/
+
+}
+
+@media screen and (min-width: 1000px) {
+/*desktop*/
+	
+}
